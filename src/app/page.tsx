@@ -3,30 +3,30 @@ import localFont from 'next/font/local'
 import { Icon } from "@chakra-ui/react";
 import { FaFacebook, FaInstagram } from "react-icons/fa6"; 
 // Font files can be colocated inside of `pages`
-const Simonetta = localFont({
-  src: [
-    {
-      path: './fonts/Simonetta-Regular.ttf',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: './fonts/Simonetta-Italic.ttf',
-      weight: '400',
-      style: 'italic',
-    },
-    {
-      path: './fonts/Simonetta-Black.ttf',
-      weight: '700',
-      style: 'normal',
-    },
-    {
-      path: './fonts/Simonetta-BlackItalic.ttf',
-      weight: '700',
-      style: 'italic',
-    },
-  ],
-})
+// const Simonetta = localFont({
+//   src: [
+//     {
+//       path: './fonts/Simonetta-Regular.ttf',
+//       weight: '400',
+//       style: 'normal',
+//     },
+//     {
+//       path: './fonts/Simonetta-Italic.ttf',
+//       weight: '400',
+//       style: 'italic',
+//     },
+//     {
+//       path: './fonts/Simonetta-Black.ttf',
+//       weight: '700',
+//       style: 'normal',
+//     },
+//     {
+//       path: './fonts/Simonetta-BlackItalic.ttf',
+//       weight: '700',
+//       style: 'italic',
+//     },
+//   ],
+// })
 const SimonettaItalic = localFont({
   src:'./fonts/Simonetta-BlackItalic.ttf'
 })
